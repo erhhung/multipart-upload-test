@@ -1,0 +1,23 @@
+{
+  "name": "multipart-upload-test",
+  "version": "1.0.0",
+  "description": "S3 multipart upload test",
+  "main": "index.js",
+  "author": "Erhhung Yuan",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "aws-sdk": "^2.554.0",
+    "cli-progress": "^3.6.1",
+    "esm": "^3.2.25",
+    "proxy-agent": "^3.1.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  },
+  "esm": {
+    "await": true
+  }
+}
